@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir essas imagens em vários dispositivos diferentes ou simples aumente e diminue o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imgmedia.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imgpequena.png" type="image/png">
+        <img src="Imagens/imggrande.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Testando audios em HTML5</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audios/Zombie March - Sir Cubworth.mp3" type="audio/mpeg">
+        <source src="audios/Zombie March - Sir Cubworth.mp3" type="audio/wav">
+        <source src="audios/Zombie March - Sir Cubworth.mp3" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio<a href="audios/Zombie March - Sir Cubworth.mp3"></a></p>
+    </audio>
+</body>
+</html>

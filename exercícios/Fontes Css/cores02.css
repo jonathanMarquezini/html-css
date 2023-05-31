@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'font';
+    src: url(fonts/PTSans-Regular.ttf) format('truetype');
+}
+body{
+    background-image: linear-gradient(to right,#878787,#202022);
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #2c3532ce;
+}
+h1{
+    text-align: center;
+    font-family: 'font';
+}
+h2{
+    text-align: center;
+    font-family: 'font';
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}

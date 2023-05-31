@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Love';
+    src: url(fonts/love\ story\ ttf.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chama';
+    src: url(fonts/Firestor.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'love', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+h2{
+    font-family: 'chama',Times,serif;
+    font-size: 80px;
+    color: #EB4B1A;
+}

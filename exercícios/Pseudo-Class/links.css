@@ -1,0 +1,31 @@
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+#especial{
+    background-color: rgb(184, 70, 70);
+    width: 100px;
+}
+#especial::before{
+    content: '→';
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+#especial::after{
+    content: '←';
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}

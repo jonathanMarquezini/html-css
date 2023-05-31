@@ -1,0 +1,17 @@
+img{
+    width: 250px;
+    position: relative;
+    left: 3%;
+    height: 220px;
+    border-radius: 50%;
+}
+p#paragrafo{
+    width: 800px;
+    margin: 15px;
+}
+h1,h2,h3{
+    margin: 10px;
+}
+a:link{
+    text-decoration: none;
+}
