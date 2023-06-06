@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.b4{
+    background-color: yellow;
+}
+.linha2{
+    background-color: lightslategray;
+}
