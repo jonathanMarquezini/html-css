@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 12px;
+}
+.cnome{
+    background-color: lightgreen;
+}
+.csexo{
+    background-color: rgb(228, 228, 67);
+}
