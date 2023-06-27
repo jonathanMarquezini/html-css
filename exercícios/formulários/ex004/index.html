@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="inder2.html" method="get" autocomplete="off" target="_blank">
+        <fieldset>
+            <legend>Formulário de Contato</legend>
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome Completo" required>
+            </p>
+            <p><label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="Email Principal" required>
+            </p>
+            <p><label for="itelefone">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" placeholder="Telefone de Contato" required pattern="^\(\d{2}\)\d{4}-\d{4}$">
+            </p>
+            <p>
+        </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir">
+        </p>
+    </form>
+</body>
+</html>
