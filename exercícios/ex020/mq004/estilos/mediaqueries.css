@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário,background não se imprime*/
+    }
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    main::after{
+        content: 'Aprendendo a usar o media queries através do site www.cursoemvideo.com';
+        text-decoration: underline;
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#impressora{
+        display: block;
+    }
+    img#computador{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#impressora{
+        display: none;
+    }
+    img#computador{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#impressora{
+        display: none;
+    }
+    img#computador{
+        display: block;
+    }
+    img#tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#celular{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#impressora{
+        display: none;
+    }
+    img#computador{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    }
+}
